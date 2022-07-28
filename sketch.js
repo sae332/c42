@@ -199,9 +199,9 @@ function reset(){
   restart.visible = false;
   kangaroo.visible = true;
   //mude a animação canguru
-  kangaroo.changeAnimation("running", kangaroo_running);
+  kangaroo.changeAnimation("running",kangaroo_running)
   //destrua os arbustos e o grupo de obstáculos
   obstaclesGroup.destroyEach()
-  shrubsGroup.destroyEach
+  shrubsGroup.destroyEach()
   score = 0;
 }
